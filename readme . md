@@ -17,3 +17,9 @@
 cd dashboard-streamlit
 pip install streamlit pandas plotly
 streamlit run app.py
+## 6) SQL incluído
+- `sql/consultas_basicas.sql`
+- `sql/consultas_avancadas.sql`
+
+## 7) Evidências (prints)
+- Todos os prints estão na pasta `prints/`.
