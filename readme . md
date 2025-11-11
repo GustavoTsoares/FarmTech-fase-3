@@ -1,0 +1,19 @@
+# FarmTech Solutions — PBL Fase 3 (Banco de Dados + Dashboard)
+
+## 1) O que foi feito
+- Dados da Fase 2 importados no **Oracle SQL Developer**.
+- **Consultas SQL**:
+  - Amostra (20 linhas).
+  - Médias diárias: Umidade, pH, Fósforo (P) e Potássio (K).
+  - pH fora da faixa (5,5–7,5).
+  - (Opcional) Distribuição de STATUS_IRRIGACAO.
+- **Dashboard (Streamlit)**:
+  - KPIs (Umidade média, pH médio, Temp. média, Chuva média).
+  - Linha (variáveis do solo) e Barras (status).
+  - Tabela com sugestão de irrigação (regras simples).
+
+## 2) Como rodar a Dashboard (local)
+```bash
+cd dashboard-streamlit
+pip install streamlit pandas plotly
+streamlit run app.py
